@@ -14,3 +14,4 @@ for (let i = 0; i < 10; i++) {
     }
 }
 
+console.log(`La somma totale dei numeri inseriti è: ${addition}`);
