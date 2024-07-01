@@ -17,5 +17,5 @@ else {
         addition += parseInt(digit[i]);
     }
 
-
+    document.getElementById("addition").innerText = `La somma delle cifre da te inserite è: ` + addition;
 }
