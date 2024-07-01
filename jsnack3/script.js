@@ -10,5 +10,12 @@ else {
     // SPLITTIAMO LE SINGOLE CIFRE
     let digit = numero.split("");
 
+    // ORA SOMMIAMO LE SINGOLE CIFRE
+    let addition = 0;
+
+    for (let i = 0; i < digit.length; i++) {
+        addition += parseInt(digit[i]);
+    }
+
 
 }
