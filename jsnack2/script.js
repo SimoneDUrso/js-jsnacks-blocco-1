@@ -9,3 +9,6 @@ for (let i = 0; i < 6; i++) {
         numeriDispari.push(numero);
     }
 }
+
+// Stampa dell'array con i numeri dispari
+document.getElementById("numeri-dispari").innerText = numeriDispari;
