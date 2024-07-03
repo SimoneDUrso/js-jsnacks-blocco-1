@@ -5,7 +5,7 @@ for (let i = 0; i < 10; i++) {
 
     numero = parseFloat(numero);
 
-    if (numero === numero) {
+    if (numero) {
         addition += numero;
     }
 
